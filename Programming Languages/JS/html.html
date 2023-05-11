@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function moveData(num) {
+        a = "f"+ String(num)
+        document.getElementById(String(num)).innerHTML = document.getElementById(a).value;
+    }
+</script>
+
+<label for="f1">Enter some data to move </label>
+<input type="text" id="f1"> </input>
+<br>
+<input type="button" id="button1" value="Move the data" onclick= "moveData(1)"></input>
+<p id="1"></p>
+
+<label for="f2">Enter some more data to move </label>
+<input type="text" id="f2"> </input>
+<br>
+<input type="button" id="button2" value="Move the data again" onclick= "moveData(2)"></input>
+<p id="2"></p>
+
+<label for="f3">Enter even more data to move </label>
+<input type="text" id="f3"> </input>
+<br>
+<input type="button" id="button3" value="Move the data a third time" onclick= "moveData(3)"></input>
+<p id="3"></p>
+
+</body>
+</html> 

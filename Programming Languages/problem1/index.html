@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>COP 4020 Test Question 2</title>
+		<script src="code.js"></script>
+	</head>
+	<body>
+
+		<h1>Calculate Fibonacci and Primes</h1>
+
+		<div style="width: 500px;">
+			What Fibonacci number would you like to calculate? (1,1,2,3,5,8,13,...) The 5th would be 5. The 7th would be 13.<br /><br />
+			<span style="width: 250px;"><b>Number:</b> </span><input type="text" id="fib"><br />
+			<span style="color:salmon;" id="nthfib"></span><br /><br />
+			<button type="button" onclick="calcFib();">Calculate</button>
+			<p id="answer1"></p>
+		</div>
+
+		<div style="width: 500px;">
+			Enter a number. You will be told if it is prime. If it is, you will be also told the next prime.<br /><br />
+			<span style="width: 250px;"><b>Number:</b> </span><input type="text" id="prime"><br />
+			<span style="color:salmon;" id="nextprime"></span><br /><br />
+			<button type="button" onclick="calcPrime();">Calculate</button>
+			<p id="answer2"></p>
+		</div>
+
+	</body>
+</html>
